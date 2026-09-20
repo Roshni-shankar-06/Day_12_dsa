@@ -14,10 +14,6 @@ class Solution:
 
     for i in range(n):
       if isPalindrome[0][i]:
-        dp[i] = 0
-        continue
-
-      # Try all the possible partitions.
-      for j in range(i):
+      
       
 
