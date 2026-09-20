@@ -15,8 +15,4 @@ class Solution:
     while candies > 0:
       lastGiven += 1
       actualGiven = min(lastGiven, candies)
-      candies -= actualGiven
-      ans[i] += actualGiven
-      i += 1
-
-    return ans
+     
