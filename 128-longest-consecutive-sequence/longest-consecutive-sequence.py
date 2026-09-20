@@ -9,8 +9,4 @@ class Solution:
         continue
       length = 0
       while num in seen:
-        num += 1
-        length += 1
-      ans = max(ans, length)
-
-    return ans
+       
