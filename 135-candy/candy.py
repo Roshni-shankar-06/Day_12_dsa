@@ -10,7 +10,4 @@ class Solution:
       if ratings[i] > ratings[i - 1]:
         l[i] = l[i - 1] + 1
 
-    for i in range(n - 2, -1, -1):
-      if ratings[i] > ratings[i + 1]:
-    
     
