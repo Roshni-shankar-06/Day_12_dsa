@@ -3,8 +3,5 @@ class Solution:
     ans = 0
     seen = set(nums)
 
-    for num in seen:
-      # `num` is the start of a sequence.
-      if num - 1 in seen:
      
        
