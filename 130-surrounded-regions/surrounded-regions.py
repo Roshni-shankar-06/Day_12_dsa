@@ -19,10 +19,5 @@ class Solution:
     while q:
       i, j = q.popleft()
       for dx, dy in DIRS:
-        x = i + dx
-        y = j + dy
-        if x < 0 or x == m or y < 0 or y == n:
-          continue
-       
-        board[x][y] = '*'
+      
 
