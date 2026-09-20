@@ -13,5 +13,3 @@ class Solution:
       dfs(root.left, path * 10 + root.val)
       dfs(root.right, path * 10 + root.val)
 
-    dfs(root, 0)
-    return ans
