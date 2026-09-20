@@ -10,6 +10,4 @@ class Solution:
         ans += path * 10 + root.val
         return
 
-      dfs(root.left, path * 10 + root.val)
-      dfs(root.right, path * 10 + root.val)
-
+    
