@@ -12,7 +12,4 @@ class Solution:
     lastGiven = rows * n
     i = 0
 
-    while candies > 0:
-      lastGiven += 1
-      actualGiven = min(lastGiven, candies)
-     
+ 
