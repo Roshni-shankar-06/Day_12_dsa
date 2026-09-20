@@ -13,11 +13,6 @@ class Solution:
         if i * j == 0 or i == m - 1 or j == n - 1:
           if board[i][j] == 'O':
             q.append((i, j))
-            board[i][j] = '*'
-
-    # Mark the grids that stretch from the four sides with '*'.
-    while q:
-      i, j = q.popleft()
-      for dx, dy in DIRS:
+         
       
 
