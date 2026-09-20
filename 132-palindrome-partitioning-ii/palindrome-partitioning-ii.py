@@ -7,10 +7,6 @@ class Solution:
     dp = [n] * n
 
     for l in range(2, n + 1):
-      i = 0
-      for j in range(l - 1, n):
-        isPalindrome[i][j] = s[i] == s[j] and isPalindrome[i + 1][j - 1]
-  
-      
+   
       
 
