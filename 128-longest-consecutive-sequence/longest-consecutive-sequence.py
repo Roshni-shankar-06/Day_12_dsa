@@ -6,7 +6,5 @@ class Solution:
     for num in seen:
       # `num` is the start of a sequence.
       if num - 1 in seen:
-        continue
-      length = 0
-      while num in seen:
+     
        
