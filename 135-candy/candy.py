@@ -15,6 +15,4 @@ class Solution:
         r[i] = r[i + 1] + 1
 
     for a, b in zip(l, r):
-      ans += max(a, b)
-
-    return ans
+    
