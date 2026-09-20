@@ -8,11 +8,7 @@ class Solution:
     n = len(board[0])
     q = collections.deque()
 
-    for i in range(m):
-      for j in range(n):
-        if i * j == 0 or i == m - 1 or j == n - 1:
-          if board[i][j] == 'O':
-            q.append((i, j))
+  
          
       
 
