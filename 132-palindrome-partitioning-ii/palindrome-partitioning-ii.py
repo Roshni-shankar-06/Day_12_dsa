@@ -10,10 +10,7 @@ class Solution:
       i = 0
       for j in range(l - 1, n):
         isPalindrome[i][j] = s[i] == s[j] and isPalindrome[i + 1][j - 1]
-        i += 1
-
-    for i in range(n):
-      if isPalindrome[0][i]:
+  
       
       
 
