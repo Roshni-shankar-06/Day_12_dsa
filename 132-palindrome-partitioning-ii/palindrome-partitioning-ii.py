@@ -19,9 +19,5 @@ class Solution:
 
       # Try all the possible partitions.
       for j in range(i):
-        if isPalindrome[j + 1][i]:
-          dp[i] = min(dp[i], dp[j] + 1)
-
-    return dp[-1]
-
+      
 
