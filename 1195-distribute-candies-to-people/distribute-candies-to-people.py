@@ -7,9 +7,3 @@ class Solution:
     for i in range(n):
       ans[i] = accumN + rows * (i + 1)
 
-    givenCandies = (n**2 * rows**2 + n * rows) // 2
-    candies -= givenCandies
-    lastGiven = rows * n
-    i = 0
-
- 
