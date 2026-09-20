@@ -28,6 +28,3 @@ class Solution:
         q.append((x, y))
         board[x][y] = '*'
 
-    for row in board:
-      for i, c in enumerate(row):
-        row[i] = 'O' if c == '*' else 'X'
