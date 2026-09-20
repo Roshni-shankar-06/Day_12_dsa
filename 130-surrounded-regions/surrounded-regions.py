@@ -23,8 +23,6 @@ class Solution:
         y = j + dy
         if x < 0 or x == m or y < 0 or y == n:
           continue
-        if board[x][y] != 'O':
-          continue
-        q.append((x, y))
+       
         board[x][y] = '*'
 
