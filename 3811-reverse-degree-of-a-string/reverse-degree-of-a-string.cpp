@@ -6,6 +6,4 @@ class Solution {
       const int reversePos = 26 - (s[i] - 'a');
       ans += reversePos * (i + 1);
     }
-    return ans;
-  }
-};
+ 
